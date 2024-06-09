@@ -97,8 +97,8 @@ if ( {:7} == 'Organization' ){
         closeBrackets(),
         keymap.of(lintKeymap), 
         EditorView.theme({
-          "&": { height: "200px", overflow: "auto" }, // Set fixed height and enable scrolling
-          ".cm-scroller": { overflow: "auto" } // Ensure the content can scroll
+          "&": { height: "200px", overflow: "auto" }, 
+          ".cm-scroller": { overflow: "auto" } 
         })
       ]
     });
